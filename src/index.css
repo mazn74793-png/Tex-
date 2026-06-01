@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=El+Messiri:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "El Messiri", "Playfair Display", ui-serif, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #FCFCF9;
+  color: #1C1917;
+  font-family: var(--font-sans);
+}
+
+/* Custom gorgeous scrollbar for museum-grade luxurious feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FCFCF9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B45309;
+}
+

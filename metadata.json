@@ -1,0 +1,6 @@
+{
+  "name": "TEX Fabric Boutique",
+  "description": "منصة تفاعلية ملوكية للأقمشة الفاخرة والاستشارات البصرية الراقية ومحاكاة الأناقة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
